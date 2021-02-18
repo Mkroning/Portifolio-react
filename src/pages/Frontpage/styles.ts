@@ -6,7 +6,7 @@ const flex = css`
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;s
+  justify-content: center;
 `;
 
 export const InfoContainer = styled.section`
