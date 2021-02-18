@@ -1,6 +1,6 @@
 const theme = {
   colors: {
-    primary:"#000",
+    primary:"#fff",
     secondary:"#c0c",
     text: "#F7Cf",
     hover: "#fff"
