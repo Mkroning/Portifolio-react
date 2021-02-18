@@ -15,7 +15,7 @@ const AboutMeSection: React.FC =() => {
         But <strong> talking is easy, show me the code </strong> <br />
         I write some codes and I love technology, since I was a child.
         In the course of Analysis and development of systems
-        <a href="#https://www.senacrs.com.br"> </a>
+        <a href="#https://www.senacrs.com.br"> Senac Pelotas</a>
         There I learned Operating Systems, Web Development, Database, Software Engineering and other things about technology. <br />
       </p>
     </>

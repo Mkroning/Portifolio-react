@@ -1,8 +1,7 @@
 import React from "react";
 
 import {
-  GrDocumentCloud,
-  GrPhone,
+  GrDocument,
   GrGithub,
   GrLinkedinOption,
   GrMail,
@@ -39,7 +38,7 @@ const Frontpage: React.FC = () => {
             {!!process.env.REACT_APP_SOCIAL_DOCUMENT_LINK && (
               <SocialLink>
                 <a href={process.env.REACT_APP_SOCIAL_DOCUMENT_LINK}>
-                  <GrDocumentCloud />
+                  <GrDocument />
                 </a>
               </SocialLink>
             )}
@@ -54,13 +53,6 @@ const Frontpage: React.FC = () => {
               <SocialLink>
                 <a href={process.env.REACT_APP_SOCIAL_LINKEDIN_LINK}>
                   <GrLinkedinOption />
-                </a>
-              </SocialLink>
-            )}
-            {!!process.env.REACT_APP_SOCIAL_PHONE && (
-              <SocialLink>
-                <a href={process.env.REACT_APP_SOCIAL_PHONE}>
-                  <GrPhone />
                 </a>
               </SocialLink>
             )}
