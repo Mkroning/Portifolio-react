@@ -38,7 +38,7 @@ const Frontpage: React.FC = () => {
             {!!process.env.REACT_APP_SOCIAL_DOCUMENT_LINK && (
               <SocialLink>
                 <a href={process.env.REACT_APP_SOCIAL_DOCUMENT_LINK}>
-                  <GrDocument />
+                  <GrGithub />
                 </a>
               </SocialLink>
             )}
