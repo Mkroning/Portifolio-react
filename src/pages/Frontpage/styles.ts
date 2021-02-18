@@ -172,7 +172,7 @@ export const Skills = styled.div`
 
 const iconCSS = (color: string) => css`
   @media (min-width: 768px) {
-    color: #ccc;
+    color: #c0c;
     &:hover {
       color: ${color};
 
